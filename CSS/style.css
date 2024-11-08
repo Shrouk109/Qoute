@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #4d4d4d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+.quote {
+  text-align: center;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+img {
+  width: 60%;
+  margin-block: 15px;
+  border-radius: 10px;
+}
+.quote-text,
+.name-author {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+button {
+  border: 0;
+  color: #fff;
+  background-color: #333;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #484848;
+}
